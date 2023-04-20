@@ -50,7 +50,7 @@ function App() {
             navbar w-full'>
               <Navbar/>
             </div>
-          </div>
+          
 
           {/* ROutes  */}
           <div>
@@ -81,6 +81,7 @@ function App() {
             </Routes> 
           </div>
         </div>
+        </div> 
       </BrowserRouter>
     </div>
   );

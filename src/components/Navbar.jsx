@@ -83,6 +83,7 @@ const Navbar = () => {
           </div>
         </TooltipComponent>
 
+        {/* Showing diff compt on click of icon */}
         {isclicked.cart && <Cart />}
         {isclicked.chat && <Chat/>}
         {isclicked.notification && <Notification/>}
